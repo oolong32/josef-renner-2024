@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'jgs7';
+  src: url('/fonts/jgs7.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'jgs7';
+  font-size: 14px; /* optimal for jgs font */
+  line-height: 1;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  height: 100vh;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  position: absolute;
+  overflow: visible;
+}
+
+h1, h2, h3, p, li { 
+  color: white;
+  font-size: 2rem;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lime;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  margin-top: auto;
+  padding-bottom: 1rem;
+}
+
+footer * {
+  font-size: 1rem;
+}
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>happy 2024</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    svg {
+      width: 100%;
+      position: absolute;
+      z-index: -1
+    }
+    .verlet-object {
+      transform: translateY(var(--szeemann));
+      transition: transform 1s 0.1s;
+    }
+    .button {
+      z-index: 1;
+      background: hsl(250 70% 60%);
+      padding: 0.5rem 1rem;
+      display: inline-block;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 10px;
+      transform: rotate(-7deg);
+      transition: opacity 0.5s;
+    }
+    .button:hover {
+      background: hsl(250 80% 55%);
+    }
+    .button:active {
+      background: hsl(220 80% 60%);
+    }
+    text {
+      transition: all 0.1s;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <p class="button">hit any key to flip gravity</p>
+  <script src="main.js"></script>
+  <script src="vector.js"></script>
+  <script src="utils.js"></script>
+  <script src="svg-classes/line.js"></script>
+  <script src="svg-classes/text.js"></script>
+  <script src="svg-classes/verlet/verletObject.js"></script>
+  <script src="svg-classes/verlet/verletPoint.js"></script>
+  <script src="happy-2024.js"></script>
+</body>
+
+</html>
