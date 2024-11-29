@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: yellow;
   min-height: 100vh;
   position: relative;
   margin: 1rem 0.5rem;
