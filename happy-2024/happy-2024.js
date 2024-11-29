@@ -4,13 +4,13 @@ const state = {
   translateCorr: {x: 0, y: 0}, // Buchstabenhöhe im Verhältnis zu Punkt
   hue: 140
 }
-const message = 'HAPPY*2024' // ca. 500px
-const message2 = 'BYE*2023**'
+const message = 'physicsengine' // ca. 500px
+const message2 = 'gravitysticks'
 // 1ch = 50px, spacing = 50, 950px
 const pointRad = 3
 const stickyThings = []
 let szeemann = -Math.trunc(height / 4)
-let x = (width - 950) / 2
+let x = (width - 1050) / 2
 let xIncrement = 100
 
 for (let char of message) {
@@ -105,7 +105,7 @@ for (let char of message) {
 
   stickyThing.points[0].appendText(char)
   stickyThing.points[0].textGroupTexts.forEach((text) => {
-    text.html.setAttribute('font-size', 140)
+    text.html.setAttribute('font-size', 120)
     text.setFill(`hsl(${state.hue} 90% 60%)`)
     text.html.setAttribute('transform', 'translate(-35 80)')
   })

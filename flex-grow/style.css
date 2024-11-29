@@ -1,0 +1,96 @@
+:root {
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: yellow;
+  min-height: 100vh;
+  position: relative;
+  margin: 1rem 0.5rem;
+
+  font-size: 4vw;
+  font-family: 'helvetica neue';
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.total-height,
+.white-space {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.total-height {
+  border: 1px solid lightblue;
+  z-index: -1;
+}
+
+.white-space {
+  border: 1px solid pink;
+  z-index: -2;
+}
+
+.foo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* justify-content: space-between; */
+  transition: all 0.3s linear;
+  align-items: flex-start;
+  /* border: 1px dotted gray; */
+}
+
+.foo-p {
+  margin: 0;
+  /* border: 1px solid palegreen; */
+}
+
+.foo-p.text {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.foo-p.empty {
+  width: 100%;
+  transition: flex-grow 0.7s ease-in;
+  transition-delay: var(--t-delay);
+}
+
+.foo-p span.text-fragment {
+  /* background: lightblue; */
+}
+
+.foo-p span.empty {
+  /* background: lightyellow; */
+  transition: flex-grow 0.7s ease-in-out;
+  transition-delay: var(--t-delay);
+}
+
+.foo:hover span.empty {
+  flex-grow: 0 !important;
+}
+
+@media (min-width: 700px) {
+  body {
+    padding: 0 10vw;
+    font-size: 2vw
+  }
+}
