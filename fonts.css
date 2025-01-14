@@ -1,0 +1,71 @@
+/* Token Bebop */
+
+@font-face {
+  font-family: "Token Bebop";
+  src: url("/fonts/TokenBebop7-Regular.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal; }
+/* Token Serif */
+
+@font-face {
+  font-family: "Token Serif";
+  src: url("/fonts/Token7-Regular.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Serif";
+  src: url("/fonts/Token7-Italic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic; }
+
+  /* Token Mono */
+@font-face {
+  font-family: "Token Mono";
+  src: url("/fonts/TokenMono7-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Mono";
+  src: url("/fonts/TokenMono7-Regular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Mono";
+  src: url("/fonts/TokenMono7-Medium.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Mono";
+  src: url("/fonts/TokenMono7-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
+  /* Token Sans */
+
+@font-face {
+  font-family: "Token Sans";
+  src: url("/fonts/TokenSans7-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Sans";
+  src: url("/fonts/TokenSans7-Regular.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Sans";
+  src: url("/fonts/TokenSans7-Medium.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Token Sans";
+  src: url("/fonts/TokenSans7-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
