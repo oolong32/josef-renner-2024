@@ -58,6 +58,9 @@ function vFlexUpdateHandler(e) {
     emptyP.style.setProperty('--t-delay', `${tD}s`)
     // set flex-grow
     emptyP.style.setProperty('flex-grow', r() * numEmpty)
+    // könnte plakativer sein, z.B immer 2 Lücken im Verhältnis 1:2
+    // dazu müsste es 2 indexe geben
+
   })
 }
 
