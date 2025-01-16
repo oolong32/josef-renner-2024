@@ -69,3 +69,12 @@
   src: url("/fonts/TokenSans7-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal; }
+
+  /* JGS */
+  @font-face {
+    font-family: 'jgs7';
+    src: url('/fonts/jgs7.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
